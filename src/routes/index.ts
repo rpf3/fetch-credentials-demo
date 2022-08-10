@@ -15,9 +15,9 @@ export async function GET(event: RequestEvent) {
 
 	// make secure API calls
 
-  return {
-    body: {
+	return {
+		body: {
 			name: 'rpf3'
 		}
-  };
+	};
 }
